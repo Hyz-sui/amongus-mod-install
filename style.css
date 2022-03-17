@@ -18,6 +18,7 @@ a:hover{
 .content{
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 80px;
 }
 h1{
     color: blueviolet;
@@ -69,6 +70,9 @@ ol{
 }
 li{
     margin-bottom: 10px;
+}
+.nolist{
+    list-style: none;
 }
 .toc{
     font-size: 80%;
