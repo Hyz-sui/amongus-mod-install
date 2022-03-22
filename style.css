@@ -52,10 +52,14 @@ h3{
 }
 .img{
     margin-top: 10px;
+    width: 22em;
+}
+.img img:hover{
     width: 500px;
 }
 .img img{
     border-radius: 10px;
+    cursor: zoom-in;
 }
 .indent1{
     margin-left: 2em;
