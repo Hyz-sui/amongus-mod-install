@@ -52,14 +52,9 @@ h3{
 }
 .img{
     margin-top: 10px;
-    width: 22em;
-}
-.img img:hover{
-    width: 500px;
 }
 .img img{
     border-radius: 10px;
-    cursor: zoom-in;
 }
 .indent1{
     margin-left: 2em;
@@ -95,7 +90,10 @@ li{
     border-left: solid 3px gray;
     border-top: solid 3px gray;
     background-color: #bdd4ff63;
-    padding-bottom: 10px;
+    padding-bottom: 10px;;
+}
+ol .borderlist{
+    margin-left: -1em;
 }
 .toc{
     font-size: 80%;
@@ -119,4 +117,25 @@ li{
 }
 .lavel-toc{
     margin-top: 10px;
+}
+
+/* マウスホバーで画像を拡大 */
+.img img:hover{
+    width: 50%;
+}
+.img img{
+    cursor: zoom-in;
+    width: 30%;
+}
+@media only screen and (max-device-width: 480px){
+    .img img:hover{
+        width: 100%;
+    }
+    .borderlist .img img:hover{
+        width: 130%;
+        margin-left: -60px;
+    }
+    .img img{
+        width: 70%;
+    }
 }
