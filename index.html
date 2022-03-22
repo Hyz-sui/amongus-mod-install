@@ -2,7 +2,7 @@
 <html lang="ja">
 
     <head>
-        <title>アモアスMODリスト</title>
+        <title>アモアスMOD複数導入の手順</title>
         <meta charset="utf-8">
         <link rel="stylesheet" type="text/css" href="style.css">
         <link rel="shortcut icon" href="among_us.jpg" type="image/jpeg">
@@ -11,91 +11,121 @@
     </head>
 
     <body>
-        <h1>アモアスMODリスト</h1>
+        <h1>アモアスMOD複数導入の手順</h1>
         <div class="content">
             <p>
-                随時更新 掲載基準は独断
+                このページでは、アモアスのMODを複数導入する手順を解説します。通常は違うMODを使用する度にゲームフォルダの中身を入れ替える必要がありますが、この手順を使用することでその必要がなくなります。説明にはWin10、Steamを使用しています。Win11ではエクスプローラの操作やUIがかなり違いますが、併記しているキーボードショートカットを使えばたぶんできると思います。
             </p>
+            <div class="small">
+                LogicoolのGHUBなどでキー設定の変更などをしている場合は、このページの方法で行うと設定が反映されなくなることがあります。設定を維持したい場合はこのページの方法は使えないので、都度MODの入れ替えやフォルダ名の変更などを行いSteamからアモアスを起動する必要があります。
+            </div>
             <div class="toc">
                 <div class="center lavel-toc">目次</div>
                 <ol>
-                    <li><a href="#TownofPlus">TownofPlus</a></li>
-                    <li><a href="#TownofHost">TownofHost</a></li>
-                    <li><a href="#TheOtherRolesGM">TheOtherRolesGM</a></li>
-                    <li><a href="#拡張版TheOtherRoles">拡張版TheOtherRoles</a></li>
-                    <li><a href="#NebulaontheShip">NebulaontheShip</a></li>
-                    <li><a href="#TownofUs-R">TownofUs-R</a></li>
-                    <li><a href="#TownofMoss">TownofMoss</a></li>
+                    <li><a href="#導入">導入</a></li>
+                    <li><a href="#アモアスの起動">アモアスの起動</a></li>
+                    <li><a href="#起動後、ログインに失敗する場合">起動後、ログインに失敗する場合</a></li>
                 </ol>
             </div>
-            <h2 id="TownofPlus">TownofPlus</h2>
-            <p>
-                <a href="https://github.com/tugaru1975/TownOfPlus">GitHub</a>/<a href="https://github.com/tugaru1975/TownOfPlus/releases">ダウンロード</a>/<a href="https://github.com/tugaru1975/TownOfPlus#%E4%BB%96%E3%81%AEmod%E3%81%A8townofplus%E3%82%92%E5%85%A5%E3%82%8C%E3%82%8B">インストール</a>
-            </p>
-            <ul class="nolist">
-                <li>便利な機能を追加するMOD</li>
-                <li>他MODと併用可</li>
-                <li>部屋が落ちるまでの10分タイマーの表示、5秒待たずに即スタート、スタートのキャンセルなど</li>
-            </ul>
-            <h2 id="TownofHost">TownofHost</h2>
-            <p>
-                <a href="https://github.com/tukasa0001/TownOfHost">GitHub</a>/<a href="https://github.com/tukasa0001/TownOfHost/releases">ダウンロード</a>/<a href="https://hyz-sui.github.io/amongus-mod-roles/#TownofHost">役職説明</a>
-            </p>
-            <ul class="nolist">
-                <li>ホストが導入するだけで使える</li>
-                <li>ホスト以外は全ハードOK</li>
-                <li>更新現在の最新正式バージョン(1.3.4)では公式追加役職(エンジニアなど)を置き換える方式 1.4からはそうじゃなくなるらしい</li>
-            </ul>
-            <h2 id="TheOtherRolesGM">TheOtherRolesGM</h2>
-            <p>
-                <a href="https://github.com/yukinogatari/TheOtherRoles-GM">GitHub</a>/<a href="https://github.com/yukinogatari/TheOtherRoles-GM/releases">ダウンロード</a>/<a href="https://hyz-sui.github.io/amongus-mod-roles/#TheOtherRolesGM">役職説明</a>
-            </p>
-            <ul class="nolist">
-                <li>日本語</li>
-                <li>TheOtherRoles系の役職に加え、独自のニンジャやネコカボチャなど役職が非常に多い</li>
-                <li>多分一番メジャーな追加役職MOD</li>
-                <li>GM機能、追加帽子、追加体色など</li>
-            </ul>
-            <h2 id="拡張版TheOtherRoles">拡張版TheOtherRoles</h2>
-            <p>
-                <a href="https://github.com/tomarai/TheOtherRoles/releases">ダウンロード</a>/<a href="https://tomarai.github.io/install/">インストール</a>
-            </p>
-            <ul class="nolist">
-                <li>高田村MOD</li>
-                <li>導入方法が他とは違うので注意</li>
-                <li>イビルハッカー、狂信者、黒猫、ベント開閉アニメーション無効化など</li>
-                <li>写真やシャワー叩きなどで壁越しにタスクをできないようにする<a href="https://github.com/tomarai/AUShipMod/releases">AUShipMod</a>も併用すると完全な高田村レギュレーションになる</li>
-            </ul>
-            <h2 id="NebulaontheShip">NebulaontheShip</h2>
-            <p>
-                <a href="https://github.com/Dolly1016/Nebula">GitHub</a>/<a href="https://github.com/Dolly1016/Nebula#%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89">ダウンロード</a>
-            </p>
-            <ul class="nolist">
-                <li>日本語化公式拡張あり</li>
+            <h2 id="導入">導入</h2>
+            <ol>
                 <li>
-                    独自の役職が多い
-                    <div class="indent1">イビルエース=相方が死ぬとキルクールが短くなるインポスター、スナイパー=狙撃キルができるインポスターなどはこのMOD</div>
+                    ゲームフォルダを複製する
+                    <ol class="borderlist">
+                        <li>
+                            Steamのアモアスのページからローカルファイルを閲覧
+                            <div class="img">
+                                <img src="img/localfile.png" alt="歯車マーク→管理→ローカルファイルを閲覧" title="歯車マーク→管理→ローカルファイルを閲覧" width="300px">
+                            </div>
+                        </li>
+                        <li>
+                            エクスプローラのウィンドウが開くので、左上の上矢印をクリック、もしくは<span class="code">Alt</span>+<span class="code">↑</span>で<span class="code">common</span>フォルダに移動
+                            <div class="img">
+                                <img src="img/ueni.png" alt="上矢印をクリック、もしくはAlt+↑" title="上矢印をクリック、もしくはAlt+↑" width="300px">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="code">Among Us</span>フォルダを右クリックしてコピー→何もないところを右クリックして貼り付け、もしくはCtrl+C→Ctrl+Vでフォルダを複製
+                            <div class="img">
+                                <img src="img/copy.png" alt="フォルダを右クリックしてコピー" title="フォルダを右クリックしてコピー" width="300px">
+                            </div>
+                            <div class="img">
+                                <img src="img/paste.png" alt="貼り付け" title="貼り付け" width="300px">
+                            </div>
+                        </li>
+                        <li>
+                            できた<span class="code">Among Us - コピー</span>フォルダを右クリック→名前の変更、もしくはフォルダを選択した状態でキーボードの<span class="code">F2</span>キーを押して好きな名前に変更する(<span class="code">Among Us - [MOD名]</span>などのわかりやすい名前にしておくのがおすすめ)
+                            <div class="img">
+                                <img src="img/name.png" alt="右クリック→名前の変更" title="右クリック→名前の変更" width="300px">
+                            </div>
+                            <div class="img">
+                                <img src="img/nameafter.png" alt="名前を変更" title="名前を変更" width="300px">
+                            </div>
+                        </li>
+                    </ol>
                 </li>
-                <li>カラーホイールで好きな体色にできる</li>
-            </ul>
-            <h2 id="TownofUs-R">TownofUs-R</h2>
-            <p>
-                <a href="https://github.com/eDonnes124/Town-Of-Us-R">GitHub</a>/<a href="https://github.com/eDonnes124/Town-Of-Us-R#releases">ダウンロード</a>
-            </p>
-            <ul class="nolist">
-                <li>開発終了したTownofUsやPolus.ggの後継的位置付け</li>
-                <li>TownofUs系の追加役職</li>
-            </ul>
-            <h2 id="TownofMoss">TownofMoss</h2>
-            <p>
-                <a href="https://github.com/Koke1024/Town-Of-Moss">GitHub</a>/<a href="https://github.com/Koke1024/Town-Of-Moss#%E6%9C%80%E6%96%B0%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9">ダウンロード</a>
-            </p>
-            <ul class="nolist">
-                <li class="bold underline">更新現在、ゲーム本体の最新バージョンに未対応</li>
-                <li>主にTownofUs系の追加役職(ドルイド、タイムロード、アンダーテイカーなど)</li>
-                <li>いくつかのゲームの仕様変更、設定項目追加(スキャン確白の廃止、神器制限など)</li>
-                <li>このMODに対応したオートミュート用のキャプチャツールの配布</li>
-            </ul>
+                <li>
+                    名前を変えたフォルダにMODを導入する
+                </li>
+            </ol>
+            さらに他のMODを導入する場合は以上の手順を繰り返す
+            <h2 id="アモアスの起動">アモアスの起動</h2>
+            コピーしてMODを導入したフォルダの中にある<span class="code">Among Us.exe</span>(環境によっては<span class="code">Among Us</span>と表示される)を起動すると、それぞれのMODが入った状態のアモアスが起動される
+            <div class="img">
+                <img src="img/amongusexe.png" alt="アモアスを起動" title="アモアスを起動" width="300px">
+            </div>
+            <div class="small">
+                デスクトップなどにショートカットを作成しておくと次回以降の起動が楽です。方法はネット上に山ほど解説記事があるのでここでは割愛します
+            </div>
+            <h2 id="起動後、ログインに失敗する場合">起動後、ログインに失敗する場合</h2>
+            <div class="img">
+                <img src="img/authfail.png" alt="ログイン中に問題が発生しました" title="エラー" width="300px">
+            </div>
+            このような画面でログインに失敗する場合は、アモアスを閉じてから以下の手順を行うと直ると思います(Steamのみ)。
+            <ol>
+                <li>
+                    ログインに失敗するアモアスのフォルダを開く(上で<span class="code">Among Us - [MOD名]</span>などの名前に変更した、<span class="code">Among Us_Data</span>や<span class="code">BepInEx</span>などのあるところ)
+                    <div class="img">
+                        <img src="img/gamefolder.png" alt="ゲームフォルダ" title="ゲームフォルダ" width="300px">
+                    </div>
+                </li>
+                <li>
+                    <span class="code">steam_appid.txt</span>を作成する
+                    <ol class="borderlist">
+                        <li>
+                            なにもないところを右クリックし、新規作成→テキスト ドキュメント
+                            <div class="img">
+                                <img src="img/newtxt.png" alt="作成" title="作成" width="300px">
+                            </div>
+                        </li>
+                        <li>
+                            作成したテキストのファイル名の<span class="code">新しいテキスト ドキュメント</span>の部分を<span class="code">steam_appid</span>に変更する
+                            <div class="img">
+                                <img src="img/newtxtnamebefore.png" alt="新しいテキスト ドキュメント.txt" title="新しいテキスト ドキュメント.txt" width="300px">
+                            </div>
+                            <div class="img">
+                                <img src="img/newtxtnameafter.png" alt="steam_appid.txt" title="steam_appid.txt" width="300px">
+                            </div>
+                            <div class="small">
+                                画像にある<span class="code">.txt</span>の部分は設定によっては表示されません。表示されている場合は<span class="code">.txt</span>の部分は書き換えたり削除したりする必要はありませんし、表示されていない場合も<span class="code">.txt</span>を書き加えたりする必要はありません。
+                            </div>
+                        </li>
+                        <li>
+                            作成したファイルをダブルクリックで開く。すると、何も書かれていない空のメモ帳ウィンドウが開くので、そこに<span class="code">945360</span>と入力する
+                            <div class="img">
+                                <img src="img/945360.png" alt="945360" title="945360" width="300px">
+                            </div>
+                        </li>
+                        <li>
+                            <span class="code">Ctrl</span>+<span class="code">S</span>で保存し、メモ帳を閉じる
+                        </li>
+                    
+                    </ol>
+                </li>
+                <li>
+                    アモアスを起動し、左上の｢アカウント｣から｢ログイン｣を押し、ログインに成功することを確認する
+                </li>
+            </ol>
         </div>
     </body>
 
